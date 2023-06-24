@@ -10,6 +10,9 @@
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
 }
+.navBar {
+  @apply max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4;
+}
 
 /* START: General styles */
 .max-width {

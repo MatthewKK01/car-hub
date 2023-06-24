@@ -1,12 +1,12 @@
-import Header from "@/common/Header";
+import Header from "@/components/Header";
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Footer from "@/common/Footer";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Car Shop",
+  title: "CarHub",
   description: "Discover the best cars in the world",
 };
 
