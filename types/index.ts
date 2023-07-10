@@ -17,6 +17,9 @@ export interface FilterProps {
     model: string
 }
 
+export interface HomeProps {
+    searchParams: FilterProps
+}
 
 export interface searchManufacturerProps {
     manufacturer: string;
