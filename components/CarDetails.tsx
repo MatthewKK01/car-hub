@@ -72,7 +72,7 @@ function CarDetails({ car, isOpen, closeModal }: CarDetailsProps) {
                           fill
                           priority
                           className="object-contain"
-                          alt="hero"
+                          alt="up"
                         />
                       </div>
                       <div className="flex-1 w-full h-24 relative ">
@@ -81,7 +81,7 @@ function CarDetails({ car, isOpen, closeModal }: CarDetailsProps) {
                           fill
                           priority
                           className="object-contain"
-                          alt="hero"
+                          alt="side"
                         />
                       </div>
                       <div className="flex-1 w-full h-24 relative ">
@@ -90,7 +90,7 @@ function CarDetails({ car, isOpen, closeModal }: CarDetailsProps) {
                           fill
                           priority
                           className="object-contain"
-                          alt="hero"
+                          alt="down"
                         />
                       </div>
                     </div>
