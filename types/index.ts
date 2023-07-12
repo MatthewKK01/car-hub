@@ -16,6 +16,10 @@ export interface FilterProps {
     limit: number,
     model: string
 }
+export interface ShowMoreProps {
+    pageNumber: number;
+    isNext: boolean;
+}
 export interface OptionProps {
     title: string;
     value: string;
